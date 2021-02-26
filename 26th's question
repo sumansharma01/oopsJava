@@ -1,0 +1,5 @@
+1. Implement the concept of constructor in abstract class
+2. static constants
+3. Why do we need finalize() when we have garbage collection in java
+4. That printing order in System.gc()
+5. s=n?
