@@ -1,0 +1,12 @@
+-Java manages the memory through a program called garbage collector.
+-Removes the objects that are no longer used.
+-Garbage collection is done by daemon thread called garbage collector.
+-We cannot force gc to happen. System.gc()
+-If heap space is full, java.lang.OutOfMemoryError is thrown
+
+-Whenever you run a java program three threads are created.
+    a) Main thread-user thread
+    b) Thread scheduler-daemon thread(runs in the background)
+    c) Garbage collector thread-daemon thread
+
+-We can call System.gc() or RunTime.getRunTime().gc() to explicitly call garbage collector. It is just a request to garbage collector and not a command. Thus, it is upto the garbage collector to honour this request.
